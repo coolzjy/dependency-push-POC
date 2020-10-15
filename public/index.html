@@ -1,0 +1,15 @@
+<head>
+  <script>
+    const script = document.createElement("script");
+    script.src = `/foo.js${window.location.search}`;
+    script.type = "module";
+    document.head.appendChild(script);
+  </script>
+</head>
+<body>
+  <div>
+    <button type="button" onclick="window.location.replace('?push')">reload with push</button>
+    <button type="button" onclick="window.location.replace('?nopush')">reload</button>
+  </div>
+  <div id="duration"></div>
+</body>

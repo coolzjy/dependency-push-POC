@@ -1,0 +1,17 @@
+{
+  "name": "dependency-push-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zhang Visper <i@zjy.name>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "dependencies": {
+    "es-module-lexer": "^0.3.25",
+    "is-relative-url": "^3.0.0",
+    "mime": "^2.4.6",
+    "resolve-path": "^1.4.0",
+    "resolve-pathname": "^3.0.0"
+  }
+}
